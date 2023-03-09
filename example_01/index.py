@@ -1,0 +1,1 @@
+print('Hello world. Here write on Python and work with container Docker')
