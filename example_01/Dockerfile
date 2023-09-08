@@ -7,12 +7,17 @@ COPY . .
 CMD ["python", "index.py"]
 
 
-# 1.
+# 0.
 
 # В терминале написать, чтобы создать контейнер:
 # docker build .  
 # либо
-# docker build . -f Dockerfile.txt
+# docker build . -f Dockerfile
+
+# 1.
+# Подождать, пока не завершится сборка (например)
+# [+] Building 42.8s (5/8)
+# [+] Building 85.3s (5/8)
 
 # 2.
 
